@@ -1,0 +1,9 @@
+.longMenu{
+    color: black !important;
+    & .MuiIconButton-root{
+        color: black !important;
+        position: relative;
+        left: 10.1rem;
+        bottom: 2.5rem;
+    }
+}

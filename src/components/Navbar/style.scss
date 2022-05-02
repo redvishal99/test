@@ -1,0 +1,57 @@
+@import 'src/App.scss';
+.NavBar {
+	display: block;
+	& .navBar {
+		text-align: center;
+		overflow-x: hidden;
+		& .navBarWrap {
+			display: inline-block;
+			width: 290px;
+			font: normal normal 600 76px/28px Montserrat;
+			letter-spacing: 0px;
+			color: $PrimaryBlack;
+			padding: 0.5rem;
+			opacity: 1;
+			vertical-align: top;
+			text-align: left;
+			& i {
+				vertical-align: sub;
+				margin-right: 6px;
+			}
+		}
+		& .navBarWrap h6 {
+			font-weight: 700;
+		}
+		& .listProp {
+			right: 0;
+		}
+		& .listItemProp {
+			padding: 0 !important;
+		}
+		& .listItemProp a {
+			text-decoration: none !important;
+		}
+		& .listItemProp a :hover {
+			color: white !important;
+		}
+		& .listItemProp:hover {
+
+			background-color: black;
+		}
+		& .MuiTypography-body1 {
+			font-size: 14px !important;
+		}
+		& .MuiListItemText-primary {
+			color: $PrimaryBlack;
+			text-align: left;
+			font: 8px !important;
+			letter-spacing: 0px;
+			text-transform: capitalize;
+			opacity: 1;
+		}
+	}
+}
+
+.MuiListItemText-root{
+	margin-top: 15px !important;
+}

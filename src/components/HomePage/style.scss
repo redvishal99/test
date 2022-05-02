@@ -1,0 +1,117 @@
+@import 'src/App.scss';
+
+.HSWrapper {
+	width: 100%;
+	display: table;
+	& .HSLeft {
+		width: 25%;
+		float: left;
+		height: 100vh;
+		background-image: url('../../images/HomePage.png');
+		background-size: cover;
+		& .mvcLogo {
+			margin: 18px 0 0 50px;
+			width: 100px;
+			opacity: 1;
+		}
+		& .mvcTitle {
+			margin: 2rem 0 0 3rem;
+			width: 24px;
+			font-size: 50px;
+			text-align: left;
+			font-weight: 600;
+			letter-spacing: 0;
+			color: #fff;
+			opacity: 1;
+			position: absolute;
+		}
+	}
+	& .HSNav {
+		width: 75%;
+		float: left;
+		& .HSlogout {
+			left: 46rem;
+			position: relative;
+			width: 17rem;
+			color: $FontGray;
+			& .avatar {
+				display: inline-block;
+				min-width: 26px;
+			}
+			& .userName {
+				display: inline-block;
+			}
+			& .avatar .MuiAvatar-root {
+				width: 22px;
+				height: 22px;
+			}
+			& .collapseContainer {
+				background: #ffffff 0% 0% no-repeat padding-box;
+				box-shadow: 0px 3px 20px #00000029;
+				border-radius: 5px;
+				opacity: 1;
+				z-index: 99 !important;
+				position: absolute;
+				width: inherit;
+			}
+			& .pofileName .MuiListItemText-primary {
+				color: #000000bf;
+				text-align: center;
+				font-weight: 400 !important;
+			}
+			& .pageLogout .MuiListItemText-primary {
+				color: #000000bf;
+				text-align: center;
+				font-weight: 400 !important;
+				position: relative;
+				left: 6em;
+				bottom: 0.7em;
+			}
+			& .material-icons {
+				color: #000000bf;
+				top: 1.1em;
+				left: 3em;
+			}
+			& .collapseContainer {
+				background: #ffffff 0% 0% no-repeat padding-box;
+				box-shadow: 0px 3px 20px #00000029;
+				border-radius: 5px;
+				opacity: 1;
+			}
+			& .logLink {
+				display: inline-block;
+				text-decoration: none;
+			}
+			& .listItem {
+				padding: 0 !important;
+			}
+		}
+		& .HSWelcome {
+			text-align: center;
+			& .title {
+				font-size: 36px;
+				color: $PrimaryOrange;
+			}
+			& .subTitle {
+				font-size: x-large;
+				font-weight: 300;
+				color: $FontGray;
+			}
+		}
+	}
+}
+
+@media (min-width: 1367px) {
+	.HSWrapper .HSLeft {
+		width: 27%;
+		& .mvcTitle {
+			font-size: 40px;
+		}
+	}
+	.HSWrapper .HSNav {
+		width: 73%;
+		& .HSlogout {
+			left: 56rem;
+		}
+	}
+}

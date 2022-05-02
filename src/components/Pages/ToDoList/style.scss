@@ -1,0 +1,38 @@
+@import 'src/App.scss';
+.toDoList{
+	overflow: hidden;
+	& .title{
+		margin: 3rem 0 0 1rem;
+	}
+	& .basicGrid{
+		background-color: #EDE7DC;
+		height: 58rem !important;
+	}
+	& .buttonGridList{
+        position: relative;
+        left: 66.8rem;
+        bottom: 3.8rem;
+    }
+	& .questionMark{
+		color: black;
+		border-color: black;
+		min-width: 0;
+	}
+	& .questionMark:hover{
+		color: black;
+		border-color: black;
+		min-width: 0;
+		background-color: #FFF;
+	}
+	& .MuiButtonGroup-grouped{
+		color: black;
+		border-color: black;
+	}
+	& .MuiButtonGroup-grouped:hover{
+		color: black;
+		border-color: black;
+	}
+	& .MuiButton-startIcon{
+		margin-right: 0;
+	}
+}

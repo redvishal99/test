@@ -1,0 +1,79 @@
+@import 'src/App.scss';
+.header {
+	padding: 10px;
+	color: #555;
+	z-index: 1;
+	width: 100%;
+	position: fixed;
+	overflow: hidden;
+	top: 0;
+	background: orange linear-gradient( to right,orange,#df5616);
+	box-shadow: 0px 3px 10px $BoxShadow;
+	
+	& h2 {
+		display: inline-block;
+	}
+	& .search {
+		color: white;
+		background-color: #883A0F;
+		display: inline-block;
+		position: relative;
+		left: 50rem;
+		color: white;
+		border-radius: 6px;
+	}
+	& .notification{
+		position: relative;
+		left: 67rem;
+		bottom: 1rem;
+	}
+	& .helpNotification{
+		position: relative;
+		left: 70rem;
+		bottom: 1rem;
+	}
+    & .profile{
+		position: relative;
+		left: 73rem;
+		bottom: 1rem;
+	}
+	& .powerSetting{
+		position: relative;
+		left: 76rem;
+		bottom: 1rem;
+	}
+	.MuiIconButton-root{
+		color: white !important;
+	}
+}
+
+@media (min-width: 1367px) {
+	.header {
+		& .HSlogout {
+			left: 50rem;
+		}
+	}
+}
+.MuiInput-root{
+	left: 10px;
+}
+.MuiInputBase-input{
+ color: white !important;
+}
+
+.MuiInput-underline:before{
+	content: none !important;
+}
+.MuiInput-underline:after{
+	border-bottom: none !important;
+}
+.MuiFormControl-root{
+	margin: -30px 0 -30px 0;
+}
+
+.MuiInputLabel-formControl {
+    top: 21px;
+    left: 0;
+    position: relative;
+     transform: none;
+}

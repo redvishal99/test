@@ -1,0 +1,43 @@
+@import 'src/App.scss';
+.nav {
+	text-align: center;
+	padding-left: 4.5rem;
+	& .navWrap {
+		display: inline-block;
+		width: 290px;
+		font: normal normal 600 76px/28px Montserrat;
+		letter-spacing: 0px;
+		color: $PrimaryBlack;
+		padding: 0.5rem;
+		opacity: 1;
+		vertical-align: top;
+		text-align: left;
+		& i {
+			vertical-align: sub;
+			margin-right: 6px;
+		}
+	}
+	& .navWrap h6 {
+		font-weight: 700;
+	}
+	& .listProp {
+		right: 0;
+	}
+	& .listItemProp {
+		padding: 0 !important;
+	}
+	& .listItemProp a {
+		text-decoration: none !important;
+	}
+	& .MuiTypography-body1 {
+		font-size: 14px !important;
+	}
+	& .MuiListItemText-primary {
+		color: $PrimaryOrange;
+		text-align: left;
+		font: 8px !important;
+		letter-spacing: 0px;
+		text-transform: capitalize;
+		opacity: 1;
+	}
+}

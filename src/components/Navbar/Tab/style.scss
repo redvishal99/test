@@ -1,0 +1,23 @@
+
+.tabs{
+   & .MuiTab-root{
+       min-width: none;
+   }
+}
+.MuiTabs-flexContainer{
+    width: 100%;
+}
+.MuiButtonBase-root{
+    min-width: none;
+}
+
+@media (min-width: 600px){
+.tabs{
+    & .MuiTab-root{
+        min-width: none;
+    }
+ }
+.MuiTab-root{
+    min-width: none !important;
+}
+}
